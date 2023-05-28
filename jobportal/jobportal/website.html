@@ -1,0 +1,69 @@
+<html>
+<head>
+<link href="css/bootstrap.css" rel="stylesheet"/>
+<script src="js/bootstrap.js"></script>
+<link href="css/all.css" rel="stylesheet"/>
+<style>
+ .b
+ {
+ min-height:550px;
+ }
+ .f
+ {
+ text-align:center;
+ background:AQUA;
+ border:2px solid black;
+ padding:5px;
+ }
+ #p{
+ 
+ font-size:25px;
+ }
+</style>
+</head>
+<body>
+<div class="container-fluid" >
+ <div class="row b">
+ <div class="col-sm-2  "></div>
+ <!----start  add product---->
+ <div class="col-sm-8 f"> 
+ <h1 style="color:">WELCOME ADMIN</h1>
+ <h3> ADD NEW PRODUCT</h3>
+ <form action="a.php" method="POST" enctype="multipart/form-data">
+ 
+ <span id="p">
+ <b style="font-size:"> Product image :</a></b> <input type="file" name="img" /><br/> <br/> 
+ 
+ <b style="font-size:" >Product Prize :</b> <input type="number" name="n" /><br/> <br/> 
+ <b style="font-size:" >Product Discount ( in %) :</b> <input type="number" name="d" /><br/> <br/> 
+ <b style="font-size:" >Product Type :</b> <select name="t">
+ <option VALUE="DAIMOND">DAIMOND</option>
+ <option VALUE="GOLD">GOLD</option>
+ <option VALUE="SILVER">SILVER</option>
+ <option VALUE="PLATINIUM">PLATINIUM</option>
+ </select>
+ <BR><BR/>
+ <input type="SUBMIT"  />
+ 
+ </form>
+ </span> <!---end  add product---->
+ </div>
+ <div class="col-sm-2 "></div>
+ 
+ 
+ 
+ </div>
+ 
+ </div>
+</body>
+</html>
+<br/><br/><br/>
+<table border="3" cellspacing="6">
+ <tr ><td>Product type</td><td>dgjdgjdgjdg</td></tr>
+ <tr><td> Product prize</td><td></td></tr>
+ <tr><td> Product Discount</td><td></td></tr>
+ <tr><td> Product image</td><td></td></tr>
+  
+ 
+ 
+ </table>
